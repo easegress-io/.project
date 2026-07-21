@@ -1,41 +1,35 @@
 # .project metadata for Easegress
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set identity_type under legal (has_dco, has_cla)
-# TODO: Add adopters list (ADOPTERS.md)
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "easegress"
 name: "Easegress"
 description: "A Cloud Native traffic orchestration system"
 type: "project"
-project_lead: "xxx7xxxx" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "xxx7xxxx"
+slack_channels:
   - name: "#easegress"
+    workspace: "cncf"
+    link: "https://cloud-native.slack.com/messages/easegress"
     primary: true
-  - name: "#community"
 
 maturity_log:
   - phase: "sandbox"
     date: "2023-12-19T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/35" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/35"
 
 repositories:
   - "https://github.com/easegress-io/easegress"
 
-website: "https://megaease.com/easegress"
+website: "https://megaease.cn/easegress/"
 
 artwork: "https://landscape.cncf.io/logos/easegress.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/easegress-io/easegress/blob/main/ADOPTERS.md"
+adopters:
+  path: "https://github.com/easegress-io/.project/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "easegress-io/easegress"
+package_managers:
+  docker: "megaease/easegress"
 
 social:
   twitter: "https://twitter.com/megaease"
