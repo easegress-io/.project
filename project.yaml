@@ -23,7 +23,7 @@ repositories:
 
 website: "https://megaease.cn/easegress/"
 
-artwork: "https://landscape.cncf.io/logos/easegress.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/easegress"
 
 adopters:
   path: "https://github.com/easegress-io/.project/blob/main/ADOPTERS.md"
